@@ -11,3 +11,16 @@
 .container > ol{
     border: 1px solid;
 }
+
+.orange + li {
+    /* chooses the adjacent sibling(next/following sibling)*/
+    color: rgb(203, 214, 204);
+}
+
+.orange ~ li {
+    /* chooses the general sibling*/
+    /* color: rgb(203, 214, 204);
+     */
+     font-weight: bolder;
+
+}
