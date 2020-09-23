@@ -7,4 +7,19 @@ body {
 
 .article {
     background-color: aquamarine;
+    width: 800px;
+    height: auto;
+    text-align: center;
+    padding: 10px;
 }
+
+p {
+    font-size: 1.2em;
+}
+ h1 {
+     text-align: center;
+ }
+
+ * {
+     margin: 5px;
+ }
