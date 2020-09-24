@@ -1,8 +1,16 @@
-li{
+ol, li{
     padding: 5px;
 }
 
 li:hover {
     cursor: pointer;
     background-color: rgb(202, 219, 235);
+}
+
+li::first-letter {
+    font-size: 2em;
+}
+
+li::selection{
+    background-color: bisque;
 }
