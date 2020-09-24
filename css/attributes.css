@@ -1,0 +1,28 @@
+li[data-value]{
+    font-size: 1.2em;
+}
+
+li[data-value="lorem"]{
+    /* should have the value */
+    color: greenyellow;
+}
+
+li[data-value~="ipsum"]{
+    /* should have the word separated by space */
+    color: red;
+}
+li[data-value*="dolor"]{
+    /* should have the word without space */
+    color: magenta;
+}
+
+li[data-value^="dolor"]{
+    /* should start with word */
+    color: orange;
+}
+
+li[data-value$="sit"]{
+    /* should end ewith the word */
+    color: blueviolet;
+}
+
